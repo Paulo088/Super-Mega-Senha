@@ -1,0 +1,5 @@
+install:
+    build: .
+    command: npm install
+    volumes:
+        - .:/usr/src/app
